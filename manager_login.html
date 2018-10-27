@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manager Login</title>
+  <link rel="stylesheet"  href="manager_login.css">
+
+</head>
+<body>
+  <div class="header">
+     <div class="container" style="background-color: white;">
+        <div class="content">
+          <font size="20px">Easy</font>
+          <font size="20px" style="color: green">parking</font>
+        </div>
+        <div class="logo">
+          <img src="logo.jpg" alt="logo" height="90px" width="80px">
+        </div>
+        <div class="tagline">
+          <font size="4px">Smart. Beautiful. Parking</font>
+        </div>
+        <div class="button">
+          <a href="img.html" class="linked-button">Home</a>
+          <a href="img.html" class="linked-button">Help</a>
+          <button class="linked-button">Logout</button>
+
+        </div>
+      </div>
+  </div>
+
+  <div class="body1">
+    <img src="car20.jpg" height="500px" width="100%">
+  <!--<input type="file" name="filename" accept="image/png, image/jpg, image/gif">-->
+    <div class="body1-content">
+        <form action=loginmanager.php method="POST">
+    <input type="text" name="name" placeholder="Area Name"  style="width: 400px;" />
+    <input type="text" name="add" placeholder="Address"  style="width: 400px;  font-size: 20px;" />
+    <input type="text" name="office_no" placeholder="Office_no." style="width: 400px;"/>
+    <label for="time" style="font-size: 25px;font-family: ROBOTO;left:150px; color: white;position: absolute; ">Timings</label><br>
+    <label for="from" style="font-size: 20px;top: 250px;position: absolute;">From</label>
+    <input type="time" name="timing" placeholder="Timing" style="width: 130px;position: absolute;top: 280px;" />
+    <label for="to" style="font-size: 20px;top: 250px;position: absolute;right: 250px;">To</label>
+    <input type="time" name="timing2" placeholder="Timing" style="width: 130px;position: absolute;top: 280px;right: 150px;" />
+    <!--<input type="text" name="o_car" placeholder="Occupancy-car" />
+    <input type="text" name="o_bike" placeholder="Occupancy-Bike" />  
+ 
+   
+  <input type="submit" name="signup_submit" value="Add Details" />-->
+   </form>
+      
+    </div>
+  </div>
+
+</body>
+</html>
